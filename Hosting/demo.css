@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+
+nav{
+  background-color: #12f912;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+.nav-menu{
+  margin-right: 10px;
+  padding: 0;
+  list-style-type: none; 
+  overflow: hidden;
+  padding: 5px 10px;
+}    
+.logo {
+font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 18px;
+margin-left: 15px;
+padding: 5px 10px;
+}
+.logo>a{
+  text-decoration: none;
+  color: black;
+}
+.nav-items{
+  display: inline;
+  padding: 5px 10px;
+  font-family: "montserrat", sans-serif;
+  font-weight: 600;
+  
+}
+li > a{
+  text-decoration: none;
+  color: black;
+}
+.hosting{
+  background-color: #fa047b;
+  color: white;
+  border: 1;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+}
+.hosting:hover {
+  background-color: rgb(255, 255, 255);
+  color: #fa047b;
+}
+.hosting:active{
+  background-color: rgb(247, 213, 228);
+  color: #fa047b;
+  box-shadow: inset;
+}
+img{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.cardtray{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+.CardHeading{
+  text-align: center;
+  margin: 25px 0;
+  color: #12f912;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.SideCard1, .SideCard3{
+  background-color: #bcf2bc;
+  height: 325px;
+  width: 300px;
+  text-align: center;
+  color: black;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 2px 2px 4px rgb(9, 39, 0);
+
+
+}
+.MainCard {
+  background-color: #12f912;
+  height: 375px;
+  width: 350px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 4px rgb(9, 39, 0);
+}
+
+.cardtray h2{
+  margin-top: 25px;
+}
+.cardtray h3{
+  margin-top: 15px;
+}
+.cardtray h4{
+  margin-top: 10px;
+}
+.CardListItem{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.CardListItem>li{
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+}
+.MainCard>h2{
+  border: 2px solid black;
+  background-color: white;
+  color: #12f912;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 0;
+}
+.MainCard> h4, .MainCard li{
+  color: white;
+}
+
+.TextWhite{
+  color: white;
+}
+
+.ChoosePlan{
+  background-color: black;
+  color: white;
+  border-radius: 2px solid white;
+  border: 1;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+}
+
+.ChoosePlan:hover{
+  background-color: rgb(253, 253, 253);
+  color: black
+}
+.ChoosePlan:active{
+  background-color: #c5c6c5;
+  color: black;
+  box-shadow: inset ;
+}
+
+.Aboutus{
+  background-color: #fa047b;
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headabout{
+  background-color: rgb(250, 4, 123);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.headabout>h2{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.circle{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  margin: 50px;
+  border: 2px solid black;
+
+}
+
+.Footer{
+  background-color: rgb(66, 66, 66);
+  height: 40px;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 50px;
+}
+.Footer li{
+  display: inline;
+  margin: 0 10px;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+  padding: 10px 15px;
+}
