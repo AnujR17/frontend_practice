@@ -62,7 +62,7 @@ li > a{
   box-shadow: inset;
 }
 img{
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
